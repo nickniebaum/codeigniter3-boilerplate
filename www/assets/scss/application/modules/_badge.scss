@@ -1,0 +1,42 @@
+/*
+--------------------------------------------------
+  BADGE
+--------------------------------------------------
+*/
+
+.badge {
+    background: $color-notification-info;
+    color: lighten($color-notification-info,50);
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 14px;
+    border-radius: 9px;
+    text-align: center;
+    padding: 2px 5px;
+
+    &.x-small {
+        font-size: 7px;
+        padding: 0 3px;
+        line-height: 11px;
+    }
+
+    &.small {
+        font-size: 8px;
+        padding: 0 5px;
+    }
+
+    &.success {
+        background: $color-notification-success;
+        color: lighten($color-notification-success,50);
+    }
+
+    &.warning {
+        background: $color-notification-warning;
+        color: lighten($color-notification-warning,50);
+    }
+
+    &.error {
+        background: $color-notification-error;
+        color: lighten($color-notification-error,50);
+    }
+}

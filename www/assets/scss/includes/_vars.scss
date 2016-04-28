@@ -1,0 +1,155 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    VARIABLES
+
+    Values used throughout the stylesheet.
+
+----------------------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+  COLORS
+--------------------------------------------------
+*/
+/* White, Black and Grays */
+$color-white: #fff;
+$color-black: #000;
+
+$color-gray-95: darken($color-white,95);
+$color-gray-90: darken($color-white,90);
+$color-gray-85: darken($color-white,85);
+$color-gray-80: darken($color-white,80);
+$color-gray-75: darken($color-white,75);
+$color-gray-70: darken($color-white,70);
+$color-gray-65: darken($color-white,65);
+$color-gray-60: darken($color-white,60);
+$color-gray-55: darken($color-white,55);
+$color-gray-50: darken($color-white,50);
+$color-gray-45: darken($color-white,45);
+$color-gray-40: darken($color-white,40);
+$color-gray-35: darken($color-white,35);
+$color-gray-30: darken($color-white,30);
+$color-gray-25: darken($color-white,25);
+$color-gray-20: darken($color-white,20);
+$color-gray-15: darken($color-white,15);
+$color-gray-10: darken($color-white,10);
+$color-gray-5: darken($color-white,5);
+
+/* Red */
+$color-red: hsl(0deg, 85%, 90%);
+$color-red-l5: lighten($color-red,5);
+$color-red-l10: lighten($color-red,10);
+$color-red-l20: lighten($color-red,20);
+$color-red-d5: darken($color-red,5);
+$color-red-d10: darken($color-red,10);
+$color-red-d20: darken($color-red,20);
+
+/* Orange */
+$color-orange: hsl(40deg, 85%, 90%);
+$color-orange-l5: lighten($color-orange,5);
+$color-orange-l10: lighten($color-orange,10);
+$color-orange-l20: lighten($color-orange,20);
+$color-orange-d5: darken($color-orange,5);
+$color-orange-d10: darken($color-orange,10);
+$color-orange-d20: darken($color-orange,20);
+
+/* Yellow */
+$color-yellow: hsl(60deg, 85%, 90%);
+$color-yellow-l5: lighten($color-yellow,5);
+$color-yellow-l10: lighten($color-yellow,10);
+$color-yellow-l20: lighten($color-yellow,20);
+$color-yellow-d5: darken($color-yellow,5);
+$color-yellow-d10: darken($color-yellow,10);
+$color-yellow-d20: darken($color-yellow,20);
+
+/* Green */
+$color-green: hsl(110deg, 85%, 90%);
+$color-green-l5: lighten($color-green,5);
+$color-green-l10: lighten($color-green,10);
+$color-green-l20: lighten($color-green,20);
+$color-green-d5: darken($color-green,5);
+$color-green-d10: darken($color-green,10);
+$color-green-d20: darken($color-green,20);
+
+/* Blue */
+$color-blue: hsl(215deg, 85%, 90%);
+$color-blue-l5: lighten($color-blue,5);
+$color-blue-l10: lighten($color-blue,10);
+$color-blue-l20: lighten($color-blue,20);
+$color-blue-d5: darken($color-blue,5);
+$color-blue-d10: darken($color-blue,10);
+$color-blue-d20: darken($color-blue,20);
+
+/* Turquoise */
+$color-turquoise: hsl(160deg, 85%, 90%);
+$color-turquoise-l5: lighten($color-turquoise,5);
+$color-turquoise-l10: lighten($color-turquoise,10);
+$color-turquoise-l20: lighten($color-turquoise,20);
+$color-turquoise-d5: darken($color-turquoise,5);
+$color-turquoise-d10: darken($color-turquoise,10);
+$color-turquoise-d20: darken($color-turquoise,20);
+
+/* Purple */
+$color-purple: hsl(290deg, 85%, 90%);
+$color-purple-l5: lighten($color-purple,5);
+$color-purple-l10: lighten($color-purple,10);
+$color-purple-l20: lighten($color-purple,20);
+$color-purple-d5: darken($color-purple,5);
+$color-purple-d10: darken($color-purple,10);
+$color-purple-d20: darken($color-purple,20);
+
+/* Violet */
+$color-violet: hsl(320deg, 85%, 90%);
+$color-violet-l5: lighten($color-violet,5);
+$color-violet-l10: lighten($color-violet,10);
+$color-violet-l20: lighten($color-violet,20);
+$color-violet-d5: darken($color-violet,5);
+$color-violet-d10: darken($color-violet,10);
+$color-violet-d20: darken($color-violet,20);
+
+/*
+--------------------------------------------------
+  LAYOUT
+--------------------------------------------------
+*/
+/* Layout */
+$color-layout-primary: $color-blue;
+$color-layout-secondary: $color-gray-30;
+
+/* Notifications */
+$color-notification-info: $color-blue;
+$color-notification-success: $color-green;
+$color-notification-warning: $color-yellow;
+$color-notification-error: $color-red;
+
+/*
+--------------------------------------------------
+  FONTS
+--------------------------------------------------
+*/
+$font-faces: (
+    "OpenSans": "open-sans/regular/open-sans-regular"
+);
+
+/*
+--------------------------------------------------
+  OTHER
+--------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+  UNSEMANTIC
+--------------------------------------------------
+*/
+$container-max-width: 1600px;
+$gutter-half: 0;
+
+/*
+--------------------------------------------------
+  FONT AWESOME
+--------------------------------------------------
+*/
+$fa-font-path: '../vendor/font-awesome/fonts';

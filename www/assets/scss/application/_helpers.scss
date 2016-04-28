@@ -1,0 +1,52 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    HELPERS
+
+    Styles for re-useable stand-alone modifiers. 
+
+----------------------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------
+  FLOATS
+--------------------------------------------------
+*/
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clearfix {
+    @extend %clearfix;
+}
+
+/*
+--------------------------------------------------
+  SPACING
+--------------------------------------------------
+*/
+$spacing-value-map: (
+    5: 5px,
+    10: 10px,
+    20: 20px
+);
+
+@each $spacing-type in margin, padding {
+    @each $spacing-direction in top, right, bottom, left {
+        @each $spacing-value-name, $spacing-value-value in $spacing-value-map {
+            .#{$spacing-type}-#{$spacing-direction}-#{$spacing-value-name} {
+                #{$spacing-type}-#{$spacing-direction}: $spacing-value-value;
+            }
+        }
+    }
+}
+
+/*
+--------------------------------------------------
+  FONT AWESOME
+--------------------------------------------------
+*/
+@import '../../vendor/font-awesome/scss/font-awesome';

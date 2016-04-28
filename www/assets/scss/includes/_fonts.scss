@@ -1,0 +1,29 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    FONTS
+
+    Fonts used throughout the stylesheet. Custom fonts can be declared using the template below:
+
+    @font-face {
+      font-family: 'Font Name';
+      src: url('path/to/font.eot.eot');
+      src: url('path/to/font.eot.eot?#iefix') format('embedded-opentype'),
+           url('path/to/font.eot.woff') format('woff'),
+           url('path/to/font.eot.ttf')  format('truetype'),
+           url('path/to/font.eot.svg#svgFontName') format('svg');
+    }
+
+----------------------------------------------------------------------------------------------------
+*/
+
+@each $font-name, $font-path in $font-faces {
+    @font-face {
+      font-family: '#{$font-name}';
+      src: url('../fonts/#{$font-path}.eot');
+      src: url('../fonts/#{$font-path}.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/#{$font-path}.woff') format('woff'),
+           url('../fonts/#{$font-path}.ttf')  format('truetype'),
+           url('../fonts/#{$font-path}.svg#svgFontName') format('svg');
+    }
+}

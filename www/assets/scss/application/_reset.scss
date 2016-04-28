@@ -1,0 +1,15 @@
+/*
+----------------------------------------------------------------------------------------------------
+
+    RESET
+
+    Resets styles applied by default to elements from different browsers.
+
+----------------------------------------------------------------------------------------------------
+*/
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+@import '../../vendor/unsemantic/scss/partials/reset';

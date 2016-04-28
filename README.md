@@ -1,1 +1,3 @@
-# codeigniter3-boilerplate
+# CodeIgniter 3 Boilerplate
+
+The template I use for CodeIgniter projects.
